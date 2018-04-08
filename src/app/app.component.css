@@ -1,0 +1,12 @@
+.flex {
+	display: flex;
+}
+.container {
+	max-width: 50%;
+	max-height: 50%;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+.standard-margin {
+    margin: 10px;
+}

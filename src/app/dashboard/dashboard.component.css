@@ -1,0 +1,15 @@
+td, th{
+    padding: 2px;
+}
+
+.flex {
+	display: flex;
+}
+.standard-margin {
+    margin-top: 20px; 
+    margin-left: 15px;
+    margin-right: 45px;
+}
+.margin-left{
+    margin-left: 120px;
+}

@@ -1,0 +1,22 @@
+<div class="container flex">
+  <div class="button-margin">
+      <button (click)="execute()">
+        <label id="plus">+</label>
+      </button>
+  </div>
+
+  <div>
+    <div>
+        <div class="standard-margin">
+            <input type="number" placeholder="first value" (keyup)="setFirstValue($event)">
+        </div>
+
+    </div>
+    <div class="standard-margin">
+        <input type="number" placeholder="second value" (keyup)="setSecondValue($event)">
+    </div>
+    <div class="standard-margin">
+        <label>{{ result }}</label>
+    </div>
+  </div>
+</div>
